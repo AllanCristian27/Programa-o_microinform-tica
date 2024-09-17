@@ -1,0 +1,72 @@
+body{max-width: 80%;
+text-align: center;
+}
+
+img{padding: 10px;}
+
+.pag1{background-image: url(images/fundo.png);
+}
+
+.pag2{background-image: url(images/fundo2.png);}
+
+
+.grid_container{display: grid;
+grid-template-columns: 60% 60%;
+gap: 10px;
+grid-template-areas: "header header  header "
+"contain contain  contain"
+"footer footer footer " ;
+;
+}
+
+
+.header{grid-area: header;
+border: none;
+display: flex;
+justify-content:space-around;
+margin-right: 60px;
+text-decoration: none;
+}
+
+ #link{padding-top: 30px;
+    margin-left: 60px;
+
+}  
+
+
+ #texto{text-align: left;
+margin-left: 160px;
+margin-right:160px;} 
+
+ #texto2{text-align: justify;
+margin-left: 160px;
+margin-right: 160px;}
+
+#texto3{text-align: justify;
+margin-left: 160px ;}
+
+/* #texto2{text-align: right;} */
+
+/* .sidebar{grid-area: sidebar;
+border: solid red
+;} */
+
+.contain{grid-area: contain;
+border: none;
+
+}
+
+.footer{grid-area: footer;
+border: none} 
+
+
+
+
+
+
+
+
+
+
+
+  
